@@ -23,15 +23,15 @@ const Profile = () => {
             <S.WrapperStatusCount>
                 <div>
                     <h4>Followers</h4>
-                    <span>5</span>
+                    <span>0</span>
                 </div>
                 <div>
                     <h4>Starred</h4>
-                    <span>5</span>
+                    <span>0</span>
                 </div>
                 <div>
                     <h4>Followings</h4>
-                    <span>5</span>
+                    <span>2</span>
                 </div>
             
             </S.WrapperStatusCount>

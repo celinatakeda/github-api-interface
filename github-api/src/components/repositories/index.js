@@ -40,16 +40,16 @@ const Repositories = () => {
             </S.WrapperList>
           </S.WrapperTabPanel>
           <S.WrapperTabPanel>
-          <S.WrapperList>
-            {githubState.starred.map((item) => (
-              <RepositoryItem 
-              key={item.id}
-              name={item.name}
-              linkToRepo={item.html_url}
-              fullName={item.full_name}
-              />
-            ))}
-         </S.WrapperList>
+            <S.WrapperList>
+              {githubState.starred.map((item) => (
+                <RepositoryItem 
+                key={item.id}
+                name={item.name}
+                linkToRepo={item.html_url}
+                fullName={item.full_name}
+                />
+              ))}
+          </S.WrapperList>
          </S.WrapperTabPanel>         
       </S.WrapperTabs>
     ) : (

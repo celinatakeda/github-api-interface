@@ -81,7 +81,7 @@ const GithubProvider = ({ children }) => {
             console.log("data: " + JSON.stringify(data));
             setGithubState((prevState) => ({
                 ...prevState,
-                repositories: data,
+                starred: data,
             }));
         });
     }

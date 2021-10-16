@@ -66,14 +66,37 @@ const GithubProvider = ({ children }) => {
         });            
     };
 
-    const contextValue = {
-        githubState
+    const getUserRepos = (username) => {
+        api.get(`users/${username}/repos`).then(({ data }) => {
+            console.log("data: " + JSON.stringify(data));
+            setGithubState((prevState) => ({
+                ...prevState,
+                repositories: data,
+            }));
+        });
+    };
 
+    const getUserStarred = (username) => {
+        api.get(`users/${username}/starred`).then(({ data }) => {
+            console.log("data: " + JSON.stringify(data));
+            setGithubState((prevState) => ({
+                ...prevState,
+                repositories: data,
+            }));
+        });
     }
 
-    return (
-        <GithubContext.Provider value={contextValue}>{children}</GithubContext.Provider>
+    const contextValue = {
+        githubState,
+        getUser: useCallback((username) => getUser(username), []),
+        getUserRepos: useCallback((username) => getUserRepos(username), []),
+        getUserStarred: useCallback((username) => getUserStarred(username), [])
+    };
 
+    return (
+        <GithubContext.Provider value={contextValue}>
+            {children}
+        </GithubContext.Provider>
     ); 
 }; 
 

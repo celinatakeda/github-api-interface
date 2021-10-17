@@ -10,7 +10,7 @@ Criado no ambiente Create React App com:
 
 Projeto com componentes reutilizáveis consumindo a api do github.
 
-Estilização dos componetes utilizando styled componets.
+Estilização dos componentes utilizando styled componets.
 
 Procura por infos, repo e starred pelo username.
 

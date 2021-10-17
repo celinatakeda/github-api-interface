@@ -8,13 +8,13 @@ Criado no ambiente Create React App com:
  - cd my-app
  - npm start
 
-Projeto com componentes reutilizável consumindo a api do github.
+Projeto com componentes reutilizáveis consumindo a api do github.
 
 Estilização dos componetes utilizando styled componets.
 
 Procura por infos, repo e starred pelo username.
 
-# Para saber mais
+# Para aprender mais
 
 https://pt-br.reactjs.org/
 

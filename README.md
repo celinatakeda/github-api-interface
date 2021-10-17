@@ -2,7 +2,7 @@
 
 O projeto faz busca de usuário no github.
 
-Criado no ambiente Create React App com:
+Desenvolvido no ambiente Create React App com:
 
  - npx create-react-app my-app
  - cd my-app

@@ -18,6 +18,10 @@ Procura por infos, repo e starred pelo username.
 
 https://pt-br.reactjs.org/
 
+https://www.npmjs.com/
+
+https://styled-components.com/
+
 
 ## Visual do projeto
 

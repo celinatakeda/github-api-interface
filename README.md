@@ -14,7 +14,7 @@ Estilização dos componetes utilizando styled componets.
 
 Procura por infos, repo e starred pelo username.
 
-# Para aprender mais
+## Para aprender mais
 
 https://pt-br.reactjs.org/
 

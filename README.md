@@ -19,15 +19,6 @@ Procura por infos, repo e starred pelo username.
 https://pt-br.reactjs.org/
 
 
-## Visual do projeto
-
-![image](https://user-images.githubusercontent.com/82118386/137626405-14de463f-f0c0-402e-8062-e5cf86c126da.png)
-
-
-
-
-
-
 
 
 

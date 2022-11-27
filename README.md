@@ -14,6 +14,12 @@ Estilização dos componentes utilizando styled componets.
 
 Procura por infos, repo e starred pelo username.
 
+## Visual do projeto
+<p align="center">
+  <img src=".github/img.png">
+</p>
+
+
 ## Para aprender mais
 
 https://pt-br.reactjs.org/
@@ -22,9 +28,9 @@ https://www.npmjs.com/
 
 https://styled-components.com/
 
-## Visual do projeto
 
-![image](https://user-images.githubusercontent.com/82118386/137627102-45171042-289b-4555-8c21-1075aaa80b22.png)
+
+
 
 
 

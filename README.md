@@ -1,6 +1,6 @@
 # Construindo interface componentizada com Reactjs
 
-O projeto faz busca de usuário no github.
+Neste projeto, desenvolvemos uma busca por um usuário no github.
 
 Desenvolvido no ambiente Create React App com:
 
@@ -8,7 +8,7 @@ Desenvolvido no ambiente Create React App com:
  - cd my-app
  - npm start
 
-Projeto com componentes reutilizáveis consumindo a api do github.
+Projeto com componentes reutilizáveis e consumindo api do github.
 
 Estilização dos componentes utilizando styled componets.
 
